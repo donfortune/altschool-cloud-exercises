@@ -16,11 +16,30 @@ This repository is a collection of cloud computing exercises designed for learni
 
 ## Exercises
 
-- **Exercise 1: [Title]**
-  - Description: Brief description of the exercise.
-  - Files: List of relevant files.
-  - Instructions: Step-by-step instructions to complete the exercise.
-  - Solution: Link to the solution or reference solution folder.
+- **Exercise 1: Ubuntu 20.04 LTS Setup with Vagrant**
+  - **Task:**
+    - Setup Ubuntu 20.04 LTS on your local machine using Vagrant.
+    - Customize your Vagrantfile with `private_network` set to `dhcp`.
+    - Once the machine is up, run `ifconfig` and share the output in your submission.
+  
+  - **Submission:**
+    - Create a folder named `ubuntu-setup` for this exercise.
+    - Place your customized `Vagrantfile` inside the `ubuntu-setup` folder.
+    - Run `ifconfig` on the Ubuntu machine and save the output.
+    - Submit the `Vagrantfile` and the output of `ifconfig` in the `ubuntu-setup` folder.
+
+  - **Example Structure:**
+    ```
+    exercise-1/
+    └── ubuntu-setup/
+        ├── Vagrantfile
+        ├── ifconfig_output.txt
+    ```
+
+  - **Tips:**
+    - Clearly label and organize your submission.
+    - Ensure the `Vagrantfile` is customized as instructed.
+
 
 - **Exercise 2: Linux Commands Research**
   - **Task:** Find and document 10 new Linux commands beyond those covered in this module. Create a `commands.md` file with brief explanations, usage examples, and screenshots for each command.
