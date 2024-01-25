@@ -22,31 +22,80 @@ This repository is a collection of cloud computing exercises designed for learni
   - Instructions: Step-by-step instructions to complete the exercise.
   - Solution: Link to the solution or reference solution folder.
 
-- **Exercise 2: Researching Linux Commands**
-  - **Task:** Research online for 10 additional Linux commands beyond the ones already mentioned in this module. Submit your findings using your `altschool-cloud-exercises` project. For each command, provide an explanation of what it is used for, along with examples of how to use it. Include example screenshots demonstrating the usage of each command.
+- **Exercise 2: Linux Commands Research**
+  - **Task:** Find and document 10 new Linux commands beyond those covered in this module. Create a `commands.md` file with brief explanations, usage examples, and screenshots for each command.
 
-  - **Submission Instructions:**
-    - Create a new folder within the `exercise-2` directory of your project.
-    - Inside the new folder, provide a Markdown file (`commands.md`) documenting the researched Linux commands.
-    - For each command, include the following:
-      - **Command Name:** The name of the Linux command.
-      - **Description:** Brief explanation of what the command is used for.
-      - **Usage Examples:** Provide examples demonstrating how to use the command.
-      - **Screenshots:** Include screenshots showing the command in action.
-
-  - **Example Structure:**
+  - **Submission:**
+    - In the `exercise-2` directory, create a folder named `linux-commands`.
+    - Inside `linux-commands`, add a `commands.md` file documenting the researched commands.
+    
+  - **Structure:**
     ```
     exercise-2/
-    └── new-linux-commands/
+    └── linux-commands/
         └── commands.md
     ```
 
-  - **Submission Tips:**
-    - Ensure your documentation is clear and easy to understand.
-    - Include both textual descriptions and visual aids (screenshots) for each command.
-    - Organize your findings neatly within the Markdown file.
+  - **Tips:**
+    - Keep descriptions concise.
+    - Include examples and screenshots.
+    - Ensure clarity in your documentation.
 
-  - **Note:** This exercise encourages you to explore and learn more Linux commands independently, enhancing your proficiency in Linux system administration.
+- **Exercise 3: User Groups and Permissions**
+  - **Task:**
+    - Create three groups: `admin`, `support`, and `engineering`.
+    - Add the `admin` group to sudoers.
+    - Create a user in each group.
+    - Generate SSH keys for the user in the `admin` group.
+
+  - **Submission:**
+    - Submit the contents of the following files using the given format:
+      - `/etc/passwd`
+      - `/etc/group`
+      - `/etc/sudoers`
+
+  - **Tips:**
+    - Clearly separate and label content for each file.
+    - Ensure the format matches the example provided.
+
+- **Exercise 4: Installing PHP 7.4**
+  - **Task:**
+    - Install PHP 7.4 on your local Linux machine using the `ppa:ondrej/php` package repository.
+  
+  - **Instructions:**
+    - Learn how to use the `add-apt-repository` command.
+    - Submit the content of `/etc/apt/sources.list`.
+    - Provide the output of the `php -v` command.
+
+  - **Tips:**
+    - Clearly label and organize your submission files.
+    - Verify the successful installation of PHP 7.4 using the `php -v` command.
+   
+- **Exercise 5: GitLab Setup and Git Configuration**
+  - **Task:**
+    - If not already done, set up a GitLab account.
+    - Clone your existing `altschool-cloud-exercises` project to your local system.
+    - Configure your name and email in Git's global configuration.
+
+  - **Instructions:**
+    - Ensure you have a GitHub account.
+    - If you don't have a GitLab account, set one up.
+    - Clone your existing `altschool-cloud-exercises` project to your local system.
+    - Configure your name and email using Git's global config.
+  
+  - **Submission:**
+    - Submit the output of the following commands:
+      - `git config -l`
+      - `git remote -v`
+      - `git log`
+
+  - **Tips:**
+    - Ensure that the GitLab setup and cloning process are clearly documented.
+    - Verify the correctness of your Git configurations.
+    - Submit outputs in separate files for clarity.
+
+
+
 
 Feel free to explore the exercises and enhance your cloud skills!
 
