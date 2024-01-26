@@ -73,7 +73,7 @@ This repository is a collection of cloud computing exercises designed for learni
       - `/etc/group`
       - `/etc/sudoers`
 
-  - **Tips:**
+  - **Tips:**h
     - Clearly separate and label content for each file.
     - Ensure the format matches the example provided.
 
