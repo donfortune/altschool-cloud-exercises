@@ -1,0 +1,6 @@
+$ ls
+fileA  fileC  fileD  misc.tar
+$  gzip misc.tar
+$ ls
+fileA  fileC  fileD  misc.tar.gz
+$ 

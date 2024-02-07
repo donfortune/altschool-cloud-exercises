@@ -1,0 +1,8 @@
+$ pwd
+/home/altschool/misc
+$ ls
+fileA  fileB  fileC
+$ mv fileB fileD          
+$ ls
+fileA  fileC  fileD
+$ 

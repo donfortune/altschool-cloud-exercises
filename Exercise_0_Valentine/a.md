@@ -1,0 +1,8 @@
+vagrant@ubuntu-focal:~$ sudo useradd -m altschool
+vagrant@ubuntu-focal:~$ sudo su - altschool
+$ pwd
+/home/altschool
+$ mkdir code tests personal misc
+$ ls
+code  misc  personal  tests
+$ 

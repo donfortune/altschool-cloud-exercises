@@ -1,0 +1,6 @@
+vagrant@ubuntu-focal:~$ sudo passwd -l donfortune
+passwd: password expiry information changed.
+vagrant@ubuntu-focal:~$ su - donfortune
+Password: 
+su: Authentication failure
+vagrant@ubuntu-focal:~$ 
